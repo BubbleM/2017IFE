@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ECharts NO.3 - 绘制地图</title>
+    <script src="js/echarts.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <div id="main" style="width: 600px;height: 400px;"></div>
+    <script>
+       $.get('ne_10m_admin_0_map_subunits.json',function (dataJson) {
+           echarts.registerMap('world',dataJson);
+           var myChart = echarts.init(document.getElementById('main'));
+           myChart.setOption({
+               backgroundColor:'#404a59',
+               series:[{
+                   type:'map',
+                   map:'world',
+               }],
+               title:{
+                   text:'Hello Map!',
+                   x:'center',
+                   textStyle:{
+                       color:"#FFF"
+                   }
+               }
+           });
+       });
+    </script>
+</body>
+</html>
