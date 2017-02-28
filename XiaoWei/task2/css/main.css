@@ -1,0 +1,118 @@
+body{
+	margin: 0px;
+	background-color: #DEDEDE;
+}
+img{
+	width: 300px;
+	height:245px;
+}
+header{
+	background: #333;
+	height: 60px;
+}
+header img{
+	margin-top:5px;
+	margin-left:35px;
+	height: 50px;
+	width: 130px;
+}
+nav ul{
+	position: absolute;
+	top:0px;
+	right: 5px;
+	height: 60px;
+	/*background: #000;*/
+	width:400px;
+}
+ul li{
+	list-style-type: none;/*去掉列表样式*/
+}
+nav ul li{
+	float: left;
+	margin-right: 15px;
+}
+a{
+	text-decoration: none;/*去掉a标签下划线*/
+}
+nav ul li a{
+	color: #fff;
+}
+nav ul li a:hover{
+	color: #9EA7AC;
+}
+main{
+	margin: 20px;
+}
+article{
+	background-color: #FFF;
+	margin-bottom: 40px;
+	padding: 10px 20px;
+}
+h2{
+	font-weight: normal;
+	color: #B5BBB9;
+}
+.author{
+	font-size: 15px;
+	color: #BBB;
+	font-weight: bold;
+
+}
+p{
+	text-indent: 2em;
+}
+figure{
+	border: 1px solid #000;
+	padding: 20px;
+	width: 300px;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+caption{
+	font-weight: bold;
+}
+th{
+	background-color: #333;
+	color: white;
+	font-weight: bold;
+	border: 1px solid #cbcbcb;
+}
+table td{
+	border:1px solid #cbcbcb;
+}
+tfoot{
+	background-color: #CCC;
+}
+.celan{
+	border-left: 3px solid #cdcdcd;
+  	line-height: 40px;
+    padding-left: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+.form{
+	margin-left: 300px;
+}
+
+mark{
+	color: #A3A08F;
+	background-color: #fff;
+	font-size: 12px;
+	margin-left: 120px;
+}
+.button{
+	width: 99%;
+	height: 50px;
+	background-color: #3355D0;
+	border-radius: 20px;
+	margin-left: 0px;
+}
+footer{
+	color: #fff;
+	background: #333;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;/*line-height和height一样就可以实现文字垂直居中*/
+}
