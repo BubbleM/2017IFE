@@ -1,4 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea
+.idea/*
 将删除 .gitignore
 将删除 .idea/
